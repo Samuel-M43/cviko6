@@ -12,9 +12,9 @@
 #circle_intersection.py:
 -hlavny skript vypise vysledok prieniku kruznic
 
-![prienik 3 kruznic](C:\prg-cvicenia\cviko6)
+![prienik 3 kruznic](kruznice.png)
 
-![prienik 2 kruznic](C:\prg-cvicenia\cviko6)
+![prienik 2 kruznic](img_1.png)
 
 
      
