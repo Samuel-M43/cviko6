@@ -1,7 +1,3 @@
-import matplotlib.pyplot as plt
-
-# circles_stats.py
-
 from math import sqrt, isclose
 
 def radius_sum(r1, r2):
@@ -12,10 +8,11 @@ def euclid_distance(x1, y1, x2, y2):
     return sqrt((x2 - x1)**2 + (y2 - y1)**2)
 
 
-def has_intersection(circle_1, circle_2):
+def has_intersection(circle_1, circle_2, circle_3):
 
     x1, y1, r1 = circle_1["x"], circle_1["y"], circle_1["r"]
     x2, y2, r2 = circle_2["x"], circle_2["y"], circle_2["r"]
+    x3, y3, r3 = circle_3["x"], circle_3["y"], circle_3["r"]
 
     d = euclid_distance(x1, y1, x2, y2)
     r_sum = radius_sum(r1, r2)
